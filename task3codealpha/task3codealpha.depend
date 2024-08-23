@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1724445415 source:d:\embedded course zaghluol\task3codealpha\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
