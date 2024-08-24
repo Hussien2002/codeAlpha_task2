@@ -28,7 +28,7 @@ void Regester()
     cout<<"Enter Password :";
     cin>>password;
     ofstream file;
-    file.open("dataofuser.txt");
+    file.open("dataofuser.txt",ios::app);
     if(file.is_open())
     {
         file<<usernam<<"\t"<<password<<endl;
