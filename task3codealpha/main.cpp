@@ -61,7 +61,8 @@ bool flag=false;
         }
      else {
          string word;
-            cout<<"is you want reset password enter reset password : ";
+           cout<<"Error in the entered data\n";
+            cout<<"is you want reset password enter yes : ";
             cin>>word;
      if(word!="NO")
         {resetpassword();}
@@ -102,7 +103,7 @@ bool flag =true;
            cout << "Username not found!\n";
         return;
         }
-             // Step 3: Write the modified content back to the file
+             // Write the modified content back to the file
     ofstream outputFile("dataofuser.txt");
     for (const auto& modifiedLine : lines) {
         outputFile << modifiedLine << endl;
